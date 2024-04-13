@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Libre_Baskerville';
+    src: url('./Libre_Baskerville/Libre_Baskerville-Regular.ttf');
+}
+
+body{
+	background-color: rgb(75,41,23);
+}
+
+header{
+	height: 100%;
+	width: 100%;
+	background-image: url("./src/concierto.jpg");
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+}
+
+.titulo{
+	/*display: flex;*/
+	width: 100%;
+	height: 100%;
+	color: white;
+	margin:auto;
+	padding-top: 1%;
+	font-size: 160%;
+	font-family: 'LibreBaskerville',sans-serif;
+}
+body > header > div > h1{
+	text-align: center;
+}
+body > header > div.navegacion > nav > ul{
+	display: flex;
+	 list-style: none;
+
+}
+body > header > div.navegacion > nav > ul>li{
+	padding: 0px 20px;
+margin: auto;
+font-size: 120%;
+}
+body > header > div.navegacion > nav > ul>li:hover{
+	color: white;
+	font-size: 140%;
+	cursor: pointer;
+}
+.galeria{
+	display: flex;
+	flex-direction: row;
+
+}
+.cuadro {
+	width: 30%;
+	height: 400px;
+	background-color: rgb(144,10,56);
+}
+.cuadro img{
+	height: 100%;
+	width: 100%;
+}
+body > div > div.cuadro > a > img{
+	height: 100%;
+	width: 100%;
+
+}
+body > div > div.cuadro > a {
+	height: 100%;
+	width: 100%;
+	
+}
+
+.video{
+	width: 70%;
+	height: 400px;
+	background-color: green;
+} 
+
+.video>iframe{
+	width: 100%;
+	height: 100%
+}
